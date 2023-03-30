@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIDAS</title>
+    <!-- icon head -->
+    <link rel="icon" href="content/assets/images/iphone.png">
+    <!-- google fonts CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200&family=Open+Sans:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- normalize css reseat element -->
+    <link rel="stylesheet" href="content/css/vendors/normalize.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="content/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a class="nav__logo" href="#">
+                <img src="content/assets/images/logo.png" alt="logo image">
+            </a>
+            <ul class="nav__list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="content__text">
+                <h2>IPHONE 13 PRO MAX</h2>
+                <p>Lorem, ipsum dolor sit, porro, repellendus perspiciatis similique dolore vero, explicabo!</p>
+                <button>All Product</button>
+            </div>
+            <div class="content__image">
+                <img id="main--img" src="content/assets/images/0.png" alt="iphone image">
+            </div>
+        </div>
+        <div class="parent--iphone">
+            <img onclick="phones(this.src); colors('#000')" src="content/assets/images/0.png" alt="iphone">
+            <img onclick="phones(this.src); colors('#247ec8')" src="content/assets/images/1.png" alt="iphone">
+            <img onclick="phones(this.src); colors('#1e1e1e')" src="content/assets/images/2.png" alt="iphone">
+            <img onclick="phones(this.src); colors('#c79b53')" src="content/assets/images/3.png" alt="iphone">
+            <img onclick="phones(this.src); colors('#c82525')" src="content/assets/images/4.png" alt="iphone">
+        </div>
+    </div>
+    <script src="content/js/app.js"></script>
+</body>
+</html>
